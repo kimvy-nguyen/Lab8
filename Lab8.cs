@@ -32,14 +32,14 @@ namespace Lab8Final
             while (cont)
             {
 
-                Console.WriteLine("Welcome to our C# class. Which student would you like to learn more about? (enter a number 1-5):");
+                Console.WriteLine("Welcome to our C# class. Which student would you like to learn more about? (enter a number 0-4):");
 
                 int userNum = int.Parse(Console.ReadLine());
 
                 
-                    while (userNum >= 6)
+                    while (userNum >= 5)
                     {
-                        Console.WriteLine("That student does not exist. Please try again. (enter a number 1-5):");
+                        Console.WriteLine("That student does not exist. Please try again. (enter a number 0-4):");
                     userNum = int.Parse(Console.ReadLine());
 
                 }
