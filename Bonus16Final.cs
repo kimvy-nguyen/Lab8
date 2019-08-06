@@ -43,7 +43,6 @@ namespace Bonus16
             Console.WriteLine("Current Inventory:");
             for (int i = 0; i < ncar.Count; i++)
             {
-                int v = i + 1;
                 Cars full = ncar[m];
                 Console.WriteLine(full.Make + "\t" + full.Model + "\t" + full.Price.ToString("C2", CultureInfo.CurrentCulture) + "\t" + full.Year);
             }
